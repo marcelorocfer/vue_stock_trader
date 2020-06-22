@@ -47,7 +47,7 @@ export default {
             const order = {
                 stockId: this.stock.id,
                 stockPrice: this.stock.price,
-                stockQuantity: this.quantity
+                quantity: this.quantity
             }
             this.sellStockAction(order)
             // this.$store.dispatch('sellStock', order)
